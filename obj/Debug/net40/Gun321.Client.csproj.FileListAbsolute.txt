@@ -155,3 +155,5 @@ E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Gun321.Client.csproj.Cor
 E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Gun321.Client.csproj.CopyComplete
 E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Gun321.Client.exe
 E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Gun321.Client.pdb
+D:\Gunny\Source Launcher\obj\Debug\net40\Gun321.Client.exe
+D:\Gunny\Source Launcher\obj\Debug\net40\Gun321.Client.pdb

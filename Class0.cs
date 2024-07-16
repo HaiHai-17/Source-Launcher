@@ -13,7 +13,7 @@ namespace Launcher
 	{
 		static void Main(string[] args)
 		{
-            //DDTStaticFunc.IsDebug = true;//turn off is debug for production 
+            DDTStaticFunc.IsDebug = true;//turn off is debug for production 
 
             if (args != null && ((Array)args).Length >= 3)
 			{
@@ -28,9 +28,9 @@ namespace Launcher
 			EmbeddedAssembly.Load("Launcher.EmbedAssemblies.Assemblies.CircularProgressBar.dll", "CircularProgressBar.dll");
 			EmbeddedAssembly.Load("Launcher.EmbedAssemblies.Assemblies.WinFormAnimation.dll", "WinFormAnimation.dll");
 			EmbeddedAssembly.Load("Launcher.EmbedAssemblies.Assemblies.zlib.net.dll", "zlib.net.dll");
-			AppDomain.CurrentDomain.AssemblyResolve += smethod_0;
-			Application.EnableVisualStyles();
-			Application.SetCompatibleTextRenderingDefault(defaultValue: false);
+            AppDomain.CurrentDomain.AssemblyResolve += smethod_0;
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(defaultValue: false);
 			Application.Run(new Login());
 		}
 
